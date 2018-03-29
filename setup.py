@@ -17,9 +17,9 @@ with io.open('README.rst', encoding='utf8') as readme:
 
 
 setup(
-    name='PyDMD',
+    name='PyDRC',
     version=version,
-    description='DMD in Python',
+    description='Dinrus compiler in Python',
     long_description=long_description,
     author='Dinrus Group',
     author_email='dinruspro@mail.ru',
@@ -40,7 +40,7 @@ setup(
     ],
     options={
         'app': {
-            'formal_name': 'PyDMD',
+            'formal_name': 'PyDRC',
             'bundle': 'com.dinruspro'
         },
 
